@@ -1,6 +1,6 @@
-# Qix (iOS)
+# Sparx (iOS)
 
-Native **Swift 6 / SpriteKit** port of the Sparx (classic Qix) clone in `qix-game-grok`.
+Sparx is a fun game inspired by the Arcade hit Qix (Taito, 1981). Native **Swift 6 / SpriteKit** implementation.
 
 ## Status
 
@@ -54,6 +54,4 @@ Qix/
   Audio/            Stub only (no SFX/music yet)
 ```
 
-## Source of truth
 
-Logic and feel should match `/Users/greg/qix-game-grok` unless improved for touch.
