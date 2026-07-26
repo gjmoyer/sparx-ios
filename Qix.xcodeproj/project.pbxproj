@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0741F4CD8D0E4DEDBE0C9E62 /* SparkField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C89B86FE46741D4B0CA0011 /* SparkField.swift */; };
+		1253BE8E50824D2F92D5F27C /* CinderPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC11846F35F4EDB96B01D50 /* CinderPack.swift */; };
+		15C788AEBD1D437BA0D690DD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A54765E47164822B56659C4 /* SwiftUI.framework */; };
+		161FC5A851E34465A263A73B /* HighScoreStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB261ED4B0242C4B54E0E2D /* HighScoreStore.swift */; };
+		1655180899614CB29875D383 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C07AA54D814397AA009136 /* UIKit.framework */; };
+		1747853307704DB684A4456C /* QixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5D2E53B8234FDE86B1814F /* QixApp.swift */; };
+		17CDF847468B4BA1BCDDBC24 /* Playfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B10AE41264C44ADAC989CA3 /* Playfield.swift */; };
+		1A250C2FCB6E45938C6C7B6F /* Bounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B954E255654212B2C61CC8 /* Bounds.swift */; };
+		21E6338527E84F13AA64A937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2877E9626F1842BC8CC41295 /* Assets.xcassets */; };
+		22CCCC75C2794A93812FF33C /* SparkNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813AF862FCCD4334B477EE96 /* SparkNode.swift */; };
+		32BE12F51CD449EB9A77C920 /* HelixNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50CDCDFA72446F0B9813339 /* HelixNode.swift */; };
+		370E310BDEE14CDB8BE886E5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA1451CCED426F8FA5C518 /* GameViewController.swift */; };
+		578EBD9268714D2997C8F666 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD858BBED7A14FFEAAF11343 /* AudioManager.swift */; };
+		5BCBD33F737E46D3A367DD30 /* HelixMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB86CCCA6EA4004A9D9C43E /* HelixMode.swift */; };
+		7183435A479949F6A1AA1DE5 /* InputState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C75F1C4563F4CE2B89693A4 /* InputState.swift */; };
+		783A1F1D479246A281227D9B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FCE5474E534AB98293DB92 /* Player.swift */; };
+		79EBC1DAEBCE40599159903A /* Helix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCF382A32B4B75A445C74C /* Helix.swift */; };
+		8552C92211244903B542385A /* CinderNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A635E83B084235815066E8 /* CinderNode.swift */; };
+		99639FC058AD454588F2F91C /* TouchControlsNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E8469FCCE4EEB9623E9BE /* TouchControlsNode.swift */; };
+		B7FE63788F774DE5B8F26BD8 /* PlayfieldNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00941A15BBF457AB5F12FAD /* PlayfieldNode.swift */; };
+		C38BA3A6169B43D8A0317922 /* HelixEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE6ABF44D34435AC2CA27A /* HelixEndpoint.swift */; };
+		DC1F237195934D2FB53E223D /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832DDB2544CD475397393946 /* SpriteKit.framework */; };
+		DDCC1AAE43C64AFA96501BFF /* LevelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B98C02A9445A7A046B8DA /* LevelConfig.swift */; };
+		DF0A755328B94B0D9BBDD205 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D50F1AE05B4819960A0811 /* Geometry.swift */; };
+		E9AC96FCAE2E4CCAAC0429AD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757FDACBE11492382F0A04B /* GameScene.swift */; };
+		EC1BADE365FC4F61938E47D6 /* PlayerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47691A19B9442A1A9305526 /* PlayerNode.swift */; };
+		FA39BA77527F4E828ABA4FF5 /* GameSKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E677AD0605420B9BABD0AF /* GameSKView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B10AE41264C44ADAC989CA3 /* Playfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playfield.swift; sourceTree = "<group>"; };
+		0C89B86FE46741D4B0CA0011 /* SparkField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkField.swift; sourceTree = "<group>"; };
+		10A8C41759584D3F9E1FBB15 /* Qix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2877E9626F1842BC8CC41295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BC11846F35F4EDB96B01D50 /* CinderPack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinderPack.swift; sourceTree = "<group>"; };
+		303B98C02A9445A7A046B8DA /* LevelConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelConfig.swift; sourceTree = "<group>"; };
+		51A635E83B084235815066E8 /* CinderNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinderNode.swift; sourceTree = "<group>"; };
+		55C07AA54D814397AA009136 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55FA1451CCED426F8FA5C518 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		58B954E255654212B2C61CC8 /* Bounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bounds.swift; sourceTree = "<group>"; };
+		6A54765E47164822B56659C4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6D5D2E53B8234FDE86B1814F /* QixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QixApp.swift; sourceTree = "<group>"; };
+		813AF862FCCD4334B477EE96 /* SparkNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkNode.swift; sourceTree = "<group>"; };
+		832DDB2544CD475397393946 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		8C75F1C4563F4CE2B89693A4 /* InputState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputState.swift; sourceTree = "<group>"; };
+		9EBE6ABF44D34435AC2CA27A /* HelixEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelixEndpoint.swift; sourceTree = "<group>"; };
+		9FB261ED4B0242C4B54E0E2D /* HighScoreStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreStore.swift; sourceTree = "<group>"; };
+		AD858BBED7A14FFEAAF11343 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		B0E677AD0605420B9BABD0AF /* GameSKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSKView.swift; sourceTree = "<group>"; };
+		B47691A19B9442A1A9305526 /* PlayerNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNode.swift; sourceTree = "<group>"; };
+		C00941A15BBF457AB5F12FAD /* PlayfieldNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayfieldNode.swift; sourceTree = "<group>"; };
+		C4FCE5474E534AB98293DB92 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C50CDCDFA72446F0B9813339 /* HelixNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelixNode.swift; sourceTree = "<group>"; };
+		D6FCF382A32B4B75A445C74C /* Helix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helix.swift; sourceTree = "<group>"; };
+		E05E8469FCCE4EEB9623E9BE /* TouchControlsNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchControlsNode.swift; sourceTree = "<group>"; };
+		E3D50F1AE05B4819960A0811 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		F757FDACBE11492382F0A04B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FDB86CCCA6EA4004A9D9C43E /* HelixMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelixMode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81EEE95B4EDC49549306F141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1F237195934D2FB53E223D /* SpriteKit.framework in Frameworks */,
+				15C788AEBD1D437BA0D690DD /* SwiftUI.framework in Frameworks */,
+				1655180899614CB29875D383 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08487ABEDCAD477799A8E6EF /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				C4FCE5474E534AB98293DB92 /* Player.swift */,
+				B47691A19B9442A1A9305526 /* PlayerNode.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		1A6D09369B754BC5B10A35E7 /* Playfield */ = {
+			isa = PBXGroup;
+			children = (
+				0B10AE41264C44ADAC989CA3 /* Playfield.swift */,
+				C00941A15BBF457AB5F12FAD /* PlayfieldNode.swift */,
+			);
+			path = Playfield;
+			sourceTree = "<group>";
+		};
+		1D6456B01A44442FB8023F82 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E3D50F1AE05B4819960A0811 /* Geometry.swift */,
+				58B954E255654212B2C61CC8 /* Bounds.swift */,
+				8C75F1C4563F4CE2B89693A4 /* InputState.swift */,
+				9FB261ED4B0242C4B54E0E2D /* HighScoreStore.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		31D778AEEB7C425C9E142BF4 /* Cinder */ = {
+			isa = PBXGroup;
+			children = (
+				2BC11846F35F4EDB96B01D50 /* CinderPack.swift */,
+				51A635E83B084235815066E8 /* CinderNode.swift */,
+			);
+			path = Cinder;
+			sourceTree = "<group>";
+		};
+		638730E63DE74AF88A82335B = {
+			isa = PBXGroup;
+			children = (
+				A89A4CC980864EAFAD2225B0 /* Qix */,
+				8927C83A640D4C75A6C8437C /* Products */,
+				B69B8FD0048147A397FDE763 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68A5FE00917F42388B6B6220 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D33E4B0DE7B744CEB298A067 /* Helix */,
+				08487ABEDCAD477799A8E6EF /* Player */,
+				31D778AEEB7C425C9E142BF4 /* Cinder */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		8927C83A640D4C75A6C8437C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10A8C41759584D3F9E1FBB15 /* Qix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A70BB6BD63494BE68C341DAB /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				303B98C02A9445A7A046B8DA /* LevelConfig.swift */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		A89A4CC980864EAFAD2225B0 /* Qix */ = {
+			isa = PBXGroup;
+			children = (
+				B3122B01C0AF46238857D82F /* App */,
+				D6172D6E9F3B4231A029DDEF /* Game */,
+				1D6456B01A44442FB8023F82 /* Core */,
+				68A5FE00917F42388B6B6220 /* Entities */,
+				1A6D09369B754BC5B10A35E7 /* Playfield */,
+				A70BB6BD63494BE68C341DAB /* Levels */,
+				B0DF406DD2C44EDEAC7CE6A7 /* Effects */,
+				B09DC0C067A5413EA26EBBF9 /* Audio */,
+				2877E9626F1842BC8CC41295 /* Assets.xcassets */,
+			);
+			path = Qix;
+			sourceTree = "<group>";
+		};
+		B09DC0C067A5413EA26EBBF9 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				AD858BBED7A14FFEAAF11343 /* AudioManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		B0DF406DD2C44EDEAC7CE6A7 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				0C89B86FE46741D4B0CA0011 /* SparkField.swift */,
+				813AF862FCCD4334B477EE96 /* SparkNode.swift */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		B3122B01C0AF46238857D82F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6D5D2E53B8234FDE86B1814F /* QixApp.swift */,
+				55FA1451CCED426F8FA5C518 /* GameViewController.swift */,
+				B0E677AD0605420B9BABD0AF /* GameSKView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B69B8FD0048147A397FDE763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				832DDB2544CD475397393946 /* SpriteKit.framework */,
+				6A54765E47164822B56659C4 /* SwiftUI.framework */,
+				55C07AA54D814397AA009136 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D33E4B0DE7B744CEB298A067 /* Helix */ = {
+			isa = PBXGroup;
+			children = (
+				D6FCF382A32B4B75A445C74C /* Helix.swift */,
+				9EBE6ABF44D34435AC2CA27A /* HelixEndpoint.swift */,
+				C50CDCDFA72446F0B9813339 /* HelixNode.swift */,
+				FDB86CCCA6EA4004A9D9C43E /* HelixMode.swift */,
+			);
+			path = Helix;
+			sourceTree = "<group>";
+		};
+		D6172D6E9F3B4231A029DDEF /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F757FDACBE11492382F0A04B /* GameScene.swift */,
+				E05E8469FCCE4EEB9623E9BE /* TouchControlsNode.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77427CF597874BE9BACF6DFA /* Qix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07929C4501E24BCF872E173B /* Build configuration list for PBXNativeTarget "Qix" */;
+			buildPhases = (
+				49D44A1A9D744C6E98217C6D /* Sources */,
+				81EEE95B4EDC49549306F141 /* Frameworks */,
+				056133E9057A4B53AF5A0307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qix;
+			productName = Qix;
+			productReference = 10A8C41759584D3F9E1FBB15 /* Qix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		206349CB8B874733B2199A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					77427CF597874BE9BACF6DFA = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 3026A6AC02A74F7BAF61C1FF /* Build configuration list for PBXProject "Qix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 638730E63DE74AF88A82335B;
+			productRefGroup = 8927C83A640D4C75A6C8437C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77427CF597874BE9BACF6DFA /* Qix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		056133E9057A4B53AF5A0307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E6338527E84F13AA64A937 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D44A1A9D744C6E98217C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1747853307704DB684A4456C /* QixApp.swift in Sources */,
+				370E310BDEE14CDB8BE886E5 /* GameViewController.swift in Sources */,
+				E9AC96FCAE2E4CCAAC0429AD /* GameScene.swift in Sources */,
+				DF0A755328B94B0D9BBDD205 /* Geometry.swift in Sources */,
+				1A250C2FCB6E45938C6C7B6F /* Bounds.swift in Sources */,
+				79EBC1DAEBCE40599159903A /* Helix.swift in Sources */,
+				C38BA3A6169B43D8A0317922 /* HelixEndpoint.swift in Sources */,
+				32BE12F51CD449EB9A77C920 /* HelixNode.swift in Sources */,
+				5BCBD33F737E46D3A367DD30 /* HelixMode.swift in Sources */,
+				783A1F1D479246A281227D9B /* Player.swift in Sources */,
+				1253BE8E50824D2F92D5F27C /* CinderPack.swift in Sources */,
+				17CDF847468B4BA1BCDDBC24 /* Playfield.swift in Sources */,
+				DDCC1AAE43C64AFA96501BFF /* LevelConfig.swift in Sources */,
+				0741F4CD8D0E4DEDBE0C9E62 /* SparkField.swift in Sources */,
+				578EBD9268714D2997C8F666 /* AudioManager.swift in Sources */,
+				7183435A479949F6A1AA1DE5 /* InputState.swift in Sources */,
+				B7FE63788F774DE5B8F26BD8 /* PlayfieldNode.swift in Sources */,
+				EC1BADE365FC4F61938E47D6 /* PlayerNode.swift in Sources */,
+				8552C92211244903B542385A /* CinderNode.swift in Sources */,
+				22CCCC75C2794A93812FF33C /* SparkNode.swift in Sources */,
+				99639FC058AD454588F2F91C /* TouchControlsNode.swift in Sources */,
+				FA39BA77527F4E828ABA4FF5 /* GameSKView.swift in Sources */,
+				161FC5A851E34465A263A73B /* HighScoreStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02688ECA1F7646A29095D474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQQ8P4P75E;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Sparx;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gregmoyer.qix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B2C504EBF8043A397339CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE248F855FF48CB92F5C617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		F40523FDB3C44495991B0806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQQ8P4P75E;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Sparx;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gregmoyer.qix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07929C4501E24BCF872E173B /* Build configuration list for PBXNativeTarget "Qix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02688ECA1F7646A29095D474 /* Debug */,
+				F40523FDB3C44495991B0806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3026A6AC02A74F7BAF61C1FF /* Build configuration list for PBXProject "Qix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE248F855FF48CB92F5C617 /* Debug */,
+				5B2C504EBF8043A397339CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 206349CB8B874733B2199A35 /* Project object */;
+}
